@@ -1,0 +1,26 @@
+{
+  "name": "testmari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syahyashah/TestMari.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syahyashah/TestMari/issues"
+  },
+  "homepage": "https://github.com/syahyashah/TestMari#readme",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
