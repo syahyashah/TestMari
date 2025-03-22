@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/syahyashah/TestMari#readme",
   "devDependencies": {
-    "cypress": "^14.2.0"
+    "cypress": "^14.2.0",
+    "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
-    "cypress-xpath": "^2.0.1"
+    "string-similarity": "^4.0.4"
   }
 }

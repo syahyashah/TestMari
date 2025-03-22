@@ -15,14 +15,9 @@ export function login() {
   cy.reload();
 
   // Perform the login steps
-  cy.get('/html/body/div[1]/div/div/div[2]/div[2]/div/form/div/div[1]/div/div/div/div/span/input').type(user.email);
-  cy.get('/html/body/div[1]/div/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div/span').type(user.pass);
-  cy.get('/html/body/div[1]/div/div/div[2]/div[2]/div/form/button').click();
+  cy.get(':nth-child(1) > .ant-row > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .ant-input-affix-wrapper').type(user.email);
+  cy.get(':nth-child(2) > .ant-row > .ant-col > .ant-form-item-control-input > .ant-form-item-control-input-content > .ant-input-affix-wrapper').type(user.pass);
+  cy.get('.ant-btn').click();
 
-  // Wait for the dropdown to be visible and select the feedyard
-//   cy.get('#ddlFeedyardList', { timeout: 10000 }).should('be.visible').select(user.database);
-//   cy.get('#btnConnect').click();
-
-  // Verify successful login by checking for a specific element on the dashboard
-  //cy.get('#fenster-fence', { timeout: 10000 }).should('be.visible');
+  
 }
