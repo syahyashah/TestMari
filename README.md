@@ -26,6 +26,8 @@ cd TestMari
 npm install
 
 ## 📂 Project Structure
+## Project Structure
+```bash
 project-folder/
 │-- cypress/
 │   │-- e2e/           # Test cases
@@ -37,7 +39,7 @@ project-folder/
 │-- cypress.config.js  # Cypress configuration file
 │-- package.json       # Project dependencies & scripts
 │-- README.md          # Project documentation
-
+```
 
 ## 🚀 Running Tests
 To execute tests, use the following commands:
