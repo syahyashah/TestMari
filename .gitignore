@@ -9,6 +9,7 @@ cypress/videos/
 cypress/screenshots/
 cypress/downloads/
 cypress/reports/
+cypress/logs/
 
 # Cypress configuration files that may contain sensitive information
 cypress.env.json
@@ -18,6 +19,7 @@ cypress.env.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+cypress/logs/test-log.txt
 
 # IDE-specific files (if applicable)
 .vscode/
@@ -38,3 +40,7 @@ build/
 # Miscellaneous OS files
 .DS_Store
 Thumbs.db
+
+# CI/CD related files (GitHub Actions and Jenkins workspace)
+.github/workflows/
+jenkins_workspace/

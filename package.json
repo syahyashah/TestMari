@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run", 
+    "test:report": "npx cypress run && npx mochawesome-merge cypress/reports/*.json -o cypress/reports/report.json && npx marge cypress/reports/report.json -o cypress/reports/html",
+    "test:e2e:chrome": "npx cypress run --e2e --browser chrome",
+    "open": "npx cypress open",
+    "open:e2e:chrome": "npx cypress open --e2e --browser chrome",
+    "open:e2e:chrome:report": "npx cypress open --e2e --browser chrome && npx mochawesome-merge cypress/reports/*.json -o cypress/reports/report.json && npx marge cypress/reports/report.json -o cypress/reports/html",
+    "test:file": "npx cypress run --spec cypress/e2e/<YOUR_TEST_FILE>.cy.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +25,8 @@
   "homepage": "https://github.com/syahyashah/TestMari#readme",
   "devDependencies": {
     "cypress": "^14.2.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-plugin-api": "^2.11.2",
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {

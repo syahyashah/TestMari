@@ -1,4 +1,17 @@
 {
+  "admin": {
     "email": "mariai1@yopmail.com",
-    "pass": "Admin@12345"
+    "pass": "Admin@12345",
+    "role": "admin"
+  },
+  "superadmin": {
+    "email": "super1@yopmail.com",
+    "pass": "SuperAdmin@12345",
+    "role": "superadmin"
+  },
+  "user": {
+    "email": "maritestuser1@yopmail.com",
+    "pass": "QTY$(gke7YI9",
+    "role": "user"
   }
+}
