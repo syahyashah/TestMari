@@ -1,0 +1,15 @@
+Prompt,Expected Response
+What is this KB about?,"This knowledge base (KB) contains detailed information about cars, their components, maintenance, and repair processes . It also includes technical data extracted from Piping & Instrumentation Diagrams (P&IDs) related to gas processing facilities . Here's a breakdown of the content: 1. Cars and Automotive Basics How Cars Work: Explains the basic principles of car operation, including engines, transmissions, and supporting systems like cooling, lubrication, and brakes. Gas Station Wisdom: Tips for selecting fuel grades and performing basic checks like fluid levels and tire inspections while refueling. Preventive Maintenance: Guidance on routine tasks such as oil changes and tire replacements to avoid costly repairs. Troubleshooting: Methods for diagnosing common car problems using observation and troubleshooting charts. Do-It-Yourself Repairs: Information on what repairs can be done by car owners versus those requiring professional mechanics. Finding a Mechanic: Tips for identifying trustworthy mechanics with certifications like ASE. 2. Technical Data from P&ID Diagrams Detailed descriptions of equipment used in gas processing facilities (e.g., amine sweetening units). Specifications for pipelines, valves, pumps, vessels, instrumentation tags (e.g., flow transmitters), operating conditions (pressure/temperature), materials used in construction (e.g., carbon steel), safety notes, and operational guidelines . Revision histories of diagrams showing updates made over time. In summary: The KB provides practical automotive knowledge for everyday users who want to understand or maintain their vehicles better. It also serves as a technical reference for professionals working with industrial gas processing systems through detailed P&ID diagram data."
+What is the recommended tire pressure?,The recommended tire pressure for most cars is between 30-35 PSI. Check your owner's manual for specifics.
+How do I change my car's oil?,Step 1: Drain the old oil. Step 2: Replace the filter. Step 3: Add new oil.
+Explain the combustion engine process.,"A combustion engine works by igniting a fuel-air mixture in cylinders, generating power to move the vehicle."
+List common car maintenance tasks.,1. Oil change  2. Tire rotation  3. Brake inspection  4. Air filter replacement  5. Battery check
+Show me a table,"""| Car Model | Year | Price |
+|---|---|---|
+| Toyota Corolla | 2022 | $20,000 |"""
+What does P&ID stand for?,"P&ID stands for Piping and Instrumentation Diagram, used in process industries."
+How do I clean my car's air filter?,"Remove the air filter, gently tap out debris, wash with soapy water (if reusable), let it dry, then reinstall."
+Show me an example of a gas processing unit table,"""| Unit | Function | Efficiency |
+|---|---|---|
+| Separator | Removes liquids from gas | 95% |
+| Compressor | Increases gas pressure | 90% |"""

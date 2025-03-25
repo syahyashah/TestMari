@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run", 
+    "test": "npx cypress run",
     "test:report": "npx cypress run && npx mochawesome-merge cypress/reports/*.json -o cypress/reports/report.json && npx marge cypress/reports/report.json -o cypress/reports/html",
     "test:e2e:chrome": "npx cypress run --e2e --browser chrome",
     "open": "npx cypress open",
@@ -30,6 +30,7 @@
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
+    "papaparse": "^5.5.2",
     "string-similarity": "^4.0.4"
   }
 }
