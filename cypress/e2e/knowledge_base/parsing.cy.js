@@ -3,7 +3,7 @@ import stringSimilarity from "string-similarity";
 import "cypress-xpath";
 import Papa from "papaparse"; // Import CSV parser
 
-describe("Chatbot Response Validation", () => {
+describe("Kb CRUD", () => {
     before(() => {
       login();
       cy.wait(2000);
@@ -19,13 +19,13 @@ describe("Chatbot Response Validation", () => {
         // Generate a unique KB name
         const kbName = 'Test KB ' + Date.now();
     
-        // Step 1: Click the "Create Knowledge Base" button
+        //Click the "Create Knowledge Base" button
         cy.get('.lg\\:flex-row > .flex > .ant-btn > :nth-child(2)').click();
     
-        // Step 2: Type the KB name in the input field
+        //Type the KB name in the input field
         cy.get('#Create_name').type(kbName);
     
-        // Step 3: Click the "Create" button in the modal
+        //Click the "Create" button in the modal
         cy.get('#Create > .flex > :nth-child(1)').click();
     
         cy.wait(2000);
@@ -39,25 +39,39 @@ describe("Chatbot Response Validation", () => {
         cy.get('.py-2 > .gap-2').click();
         cy.get('input[name="file"]').selectFile('cypress/fixtures/IntegratedFacilitiesManagement.pdf', { force: true });
         cy.get('.file-upload > :nth-child(2) > .ant-btn').click();
+        cy.get('.h-10').should('contain', 'Unparse');
+
+        //parsing a doc
+        cy.get('.operationIcon___PnxaJ').click();
+        cy.wait(20000);
+        cy.reload(); // Refresh the page
+        cy.get('.ant-progress').should('not.exist')// Waits until loader disappears
+        cy.get('.h-10').should('contain', 'Success'); // Waits until text appears
 
 
 
 
+
+        // Deleting the KB
+        cy.visit("https://dev-ai.stixor.com/knowledge").url().should("include", "/knowledge");
+        //hover over the options button
+        cy.get('#root > div > div > div > div.flex-1.overflow-x-hidden.false > main > div > div.ant-spin-nested-loading.css-13xyp08 > div > div > div:nth-child(1) > div.flex.items-center.justify-between > span > svg').trigger('mouseover', { force: true });
     
-        // //hover over the options button
-        // cy.get('#root > div > div > div > div.flex-1.overflow-x-hidden.false > main > div > div.ant-spin-nested-loading.css-13xyp08 > div > div > div:nth-child(1) > div.flex.items-center.justify-between > span > svg').trigger('mouseover', { force: true });
-    
-        // cy.get('.ant-dropdown')
-        // .should('be.visible') // Ensure dropdown is visible before clicking
-        // .within(() => {
-        //   // Step 7: Click the delete button inside the dropdown
-        //   cy.get('.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child').click();
-        // });
+        cy.get('.ant-dropdown')
+        .should('be.visible') // Ensure dropdown is visible before clicking
+        .within(() => {
+          // Click the delete button inside the dropdown
+          cy.get('.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child').click();
+          cy.wait(1000);
+        });
 
-        // // Step 6: Click the confirm button in the confirmation modal
-        // cy.get(':nth-child(7) > .ant-modal-root > .ant-modal-wrap > .ant-modal > [style="outline: none;"] > .ant-modal-content > .ant-modal-body > .flex-col > .flex > :nth-child(1)').click();
+        //Click the confirm button in the confirmation modal
+        cy.get('.ant-modal-wrap.ant-modal-centered').should('be.visible');
+        cy.contains('button', 'Confirm').click();
     
-        // // Step 7: Verify KB is deleted by checking it no longer exists
-        // cy.contains('.kb-card', kbName).should('not.exist');
+        //Verify KB is deleted by checking it no longer exists
+        cy.contains('h4.line-clamp-2', kbName).should('not.exist');
       });
   });
+
+
