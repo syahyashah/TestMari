@@ -1,5 +1,5 @@
-import { login, logout } from "../support/custom_functions";
-import logins from "../fixtures/logindata.json";
+import { login, logout } from "../../support/custom_functions";
+import logins from "../../fixtures/logindata.json";
 
 describe("Login Test Scenarios", () => {
   const roles = {
