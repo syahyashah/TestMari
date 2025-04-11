@@ -24,6 +24,11 @@
   },
   "homepage": "https://github.com/syahyashah/TestMari#readme",
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-react": "^7.26.3",
+    "@cypress/react": "^9.0.1",
+    "@cypress/webpack-dev-server": "^4.0.2",
+    "babel-loader": "^10.0.0",
     "cypress": "^14.2.0",
     "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-plugin-api": "^2.11.2",
