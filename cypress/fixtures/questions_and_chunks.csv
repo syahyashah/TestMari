@@ -1,10 +1,279 @@
 questions,chunks
-"""Piping and Instrumentation Diagram for sales gas metering skid""",Sales gas metering skid (01-SGM-0301) (Sheet 01 of 02).pdf|SGMS (01-SGM-0302).pdf|SGMS (01-SGM-0303).pdf|Sales gas metering skid (01-SGM-0302) (Sheet 02 of 02).pdf
-"""Find design Pressure of PIG receiver at Goru Plant (01-MF-0101)?""",Goru B Manifold (Rev. A).pdf|Goru B Manifold (latest).pdf
-"""Piping and Instrumentation Diagram Front End Compressor""",HRL Front end compressor (01-C-0201A).pdf|HRL Front end compressor (01-C-0201B).pdf
-"""What is the Flowing Pressure in P&ID of HRL Raw Gas Metering Skid""",RGMS (01-RGM-0201).pdf
-"""State Pig Reciever ID for HRL Manifold""",HRL Manifold (01-MF-0201).pdf
-"""what is Operating Stream Flow Rate for hrl raw gas metering""",HRL raw gas metering skid.pdf
-"""What is the revision of the P&ID diagram for Amine Sweetening Unit (01-ASU-0201)?""",ASU (01-ASU-0201) (Sheet 01 of 02).pdf
-"""Find P & ID of Demineralized water package(01-A-1601)""",Demineralized package (01-A-1601) (latest).pdf
-"""Find process data of Glycol/Glycol Heat Exchanger(HEX-0600) For Assy 1.5 mm Regenerator W(2) Kimray Pumps""",Assy 1.5 mm Regenerator W(2) Kimray Pumps.pdf
+Find Process flow diagram(PFD) of Refux drum(V-130)Rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine sweetening unit(ASU)(3rd unit)Rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Inlet Gas filter coalescer(V-100)Rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine surge drum(V-140)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine contactor(C-100)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine circulation Pump(P-121-A/B/C)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Lean amine post filter(F-120)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Lean amine carbon filter(F-110)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Lean amine Pre filter(F-100)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Water Pumps(P-102-A/B)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Treated Gas cooler(AC-100)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Treated Gas Scrubber(V-110)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine flash drum(V-120)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Rich Amine filter(F-130)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Lean Amine Cooler(AC-120)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Lean rich exchanger(E-100)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine stripper(C-110)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine Booster pump(P-101-A/B/C)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine Reboiler(E-110)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Amine Reflux pump(P-111-A/B)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Stripper condenser(AC-130)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow data of Refux drum(V-130)rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow diagram of drawing no.J2009-8505-P-PFD-0201rev.A,2- J2009-8505-P-PFD-0201_A.pdf
+Find Process flow diagram(PFD) of Amine sweetening unit(ASU)(Train-01)(01-ASU-0101)Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Inlet Gas filter coalescer(V-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine surge drum(V-140)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine contactor(C-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine circulation Pump(P-121-A/B/C)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine post filter(F-120)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine carbon filter(F-110)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine Pre filter(F-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Water Pumps(P-102-A/B)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Treated Gas cooler(AC-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Treated Gas Scrubber(V-110)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine flash drum(V-120)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Rich Amine filter(F-130)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Lean Amine Cooler(SC-120)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Lean rich exchanger(E-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine stripper(C-110)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine Booster pump(P-101-A/B/C)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine Reboiler(E-110)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine Reflux pump(P-111-A/B)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Stripper condenser(AC-130)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Refux drum(V-130)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine sweetening unit(ASU)(3rd unit)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Inlet Gas filter coalescer(V-100)Train-01Rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine surge drum(V-140)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine contactor(C-100)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine circulation Pump(P-121-A/B/C)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Lean amine post filter(F-120)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Lean amine carbon filter(F-110)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Lean amine Pre filter(F-100)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Water Pumps(P-102-A/B)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Treated Gas cooler(AC-100)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Treated Gas Scrubber(V-110)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine flash drum(V-120)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Rich Amine filter(F-130)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Lean Amine Cooler(SC-120)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Lean rich exchanger(E-100)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine stripper(C-110)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine Booster pump(P-101-A/B/C)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine Reboiler(E-110)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Amine Reflux pump(P-111-A/B)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Stripper condenser(AC-130)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow data of Refux drum(V-130)Train-01rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-008rev.A,0503223-01-PRO-PFD-008 (latest).pdf
+Find Process flow diagram(PFD) of Amine sweetening unit(ASU)(Train-01)(01-ASU-0101)Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Inlet Gas filter coalescer(V-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine surge drum(V-140)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine contactor(C-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine circulation Pump(P-121-A/B/C)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine post filter(F-120)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine carbon filter(F-110)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine Pre filter(F-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Water Pumps(P-102-A/B)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Treated Gas cooler(AC-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Treated Gas Scrubber(V-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine flash drum(V-120)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Rich Amine filter(F-130)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean Amine Cooler(SC-120)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean rich exchanger(E-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine stripper(C-110)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Booster pump(P-101-A/B/C)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Reboiler(E-110)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Reflux pump(P-111-A/B)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Stripper condenser(AC-130)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Refux drum(V-130)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine sweetening unit(ASU)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Inlet Gas filter coalescer(V-100)Train-01Rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine surge drum(V-140)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine contactor(C-100)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine circulation Pump(P-121-A/B/C)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Lean amine post filter(F-120)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Lean amine carbon filter(F-110)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Lean amine Pre filter(F-100)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Water Pumps(P-102-A/B)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Treated Gas cooler(AC-100)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Treated Gas Scrubber(V-110)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine flash drum(V-120)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Rich Amine filter(F-130)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Lean Amine Cooler(SC-120)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Lean rich exchanger(E-100)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine stripper(C-110)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine Booster pump(P-101-A/B/C)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine Reboiler(E-110)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Amine Reflux pump(P-111-A/B)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Stripper condenser(AC-130)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow data of Refux drum(V-130)Train-01rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-008rev.0,0503223-01-PRO-PFD-008 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine sweetening unit(ASU)(Train-02)(01-ASU-0201)Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Inlet Gas filter coalescer(V-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine surge drum(V-140)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine contactor(C-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine circulation Pump(P-121-A/B/C)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine post filter(F-120)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine carbon filter(F-110)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Lean amine Pre filter(F-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Water Pumps(P-102-A/B)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Treated Gas cooler(AC-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Treated Gas Scrubber(V-110)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine flash drum(V-120)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Rich Amine filter(F-130)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Lean Amine Cooler(SC-120)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Lean rich exchanger(E-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine stripper(C-110)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine Booster pump(P-101-A/B/C)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine Reboiler(E-110)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine Reflux pump(P-111-A/B)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Stripper condenser(AC-130)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Refux drum(V-130)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine sweetening unit(ASU)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Inlet Gas filter coalescer(V-100)Train-02Rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine surge drum(V-140)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine contactor(C-100)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine circulation Pump(P-121-A/B/C)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Lean amine post filter(F-120)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Lean amine carbon filter(F-110)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Lean amine Pre filter(F-100)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Water Pumps(P-102-A/B)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Treated Gas cooler(AC-100)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Treated Gas Scrubber(V-100)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine flash drum(V-120)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Rich Amine filter(F-130)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Lean Amine Cooler(SC-120)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Lean rich exchanger(E-100)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine stripper(C-110)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine Booster pump(P-101-A/B/C)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine Reboiler(E-110)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Amine Reflux pump(P-111-A/B)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Stripper condenser(AC-130)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow data of Refux drum(V-130)Train-02rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-013rev.A,0503223-01-PRO-PFD-013 (latest).pdf
+Find Process flow diagram(PFD) of Amine sweetening unit(ASU)(Train-02)(01-ASU-0201)Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Inlet Gas filter coalescer(V-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine surge drum(V-140)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine contactor(C-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine circulation Pump(P-121-A/B/C)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine post filter(F-120)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine carbon filter(F-110)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean amine Pre filter(F-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Water Pumps(P-102-A/B)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Treated Gas cooler(AC-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Treated Gas Scrubber(V-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine flash drum(V-120)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Rich Amine filter(F-130)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean Amine Cooler(SC-120)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Lean rich exchanger(E-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine stripper(C-110)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Booster pump(P-101-A/B/C)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Reboiler(E-110)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Amine Reflux pump(P-111-A/B)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Stripper condenser(AC-130)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Refux drum(V-130)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine sweetening unit(ASU)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Inlet Gas filter coalescer(V-100)Train-02Rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine surge drum(V-140)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine contactor(C-100)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine circulation Pump(P-121-A/B/C)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Lean amine post filter(F-120)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Lean amine carbon filter(F-110)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Lean amine Pre filter(F-100)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Water Pumps(P-102-A/B)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Treated Gas cooler(AC-100)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Treated Gas Scrubber(V-110)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine flash drum(V-120)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Rich Amine filter(F-130)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Lean Amine Cooler(AC-120)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Lean rich exchanger(E-100)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine stripper(C-100)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine Booster pump(P-101-A/B/C)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine Reboiler(E-110)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Amine Reflux pump(P-111-A/B)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Stripper condenser(AC-130)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow data of Refux drum(V-130)Train-02rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-013rev.0,0503223-01-PRO-PFD-013 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Dehydration unit DHU(Train-01)(01-DHU-0101)Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of glycol absorber/ScrubberDHU(V-700)Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0300)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Filter seperatorDHU(F-100)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0325)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Charcoal filter DHU(F-0350))Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Flash gas seperatorDHU(V-0200)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Fuel gas seperatorDHU(V-0400)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of 1.5mm btuDHU/HR reboiler(V-0500)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of DHU(Gly/Gly heat exchanger(HEX-0600)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of DHU(Glycol pumps(01-P-0201 A/B/C)Train-01Rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-009rev.A,0503223-01-PRO-PFD-009 (latest).pdf
+Find Process flow diagram(PFD) of Dehydration unit DHU(Train-01)(01-V-0101)Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of glycol absorber/ScrubberDHUTrain-1(V-700)Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-300)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Filter seperatorDHU(F-100)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0325)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Charcoal filter DHU(F-0350)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Flash gas seperatorDHU(V-0200)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Fuel gas seperatorDHU(V-0400)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of 1.5mm btuDHU/HR reboiler(V-0500)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of DHU(Gly/Gly heat exchanger(HEX-0600)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of DHU(Glycol pumps(01-P-0201 A/B/C)Train-01Rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-009rev.0,0503223-01-PRO-PFD-009 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Dehydration unit DHU(Train-02)(02-DHU-0101)Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of glycol absorber/ScrubberDHUTrain-02(V-700)Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0300)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Filter seperatorDHU(F-100)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0325)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Charcoal filter DHU(F-0350))Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Flash gas seperatorDHU(V-0200)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Fuel gas seperatorDHU(V-0400)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of 1.5mm btuDHU/HR reboiler(V-0500)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of DHU(Gly/Gly heat exchanger(HEX-0600)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of DHU(Glycol pumps(01-P-0201 A/B/C)Train-02Rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-014rev.A,0503223-01-PRO-PFD-014 (latest).pdf
+Find Process flow diagram(PFD) of Dehydration unit DHU(Train-02)(02-DHU-0101)Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of glycol absorber/ScrubberDHUTrain-02(V-700)Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0300)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Filter seperatorDHU(F-100)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Sock filter DHU(F-0325)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Charcoal filter DHU(F-0350))Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Flash gas seperatorDHU(V-0200)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Fuel gas seperatorDHU(V-0400)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of 1.5mm btuDHU/HR reboiler(V-0500)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of DHU(Gly/Gly heat exchanger(HEX-0600)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of DHU(Glycol pumps(01-P-0201 A/B/C)Train-02Rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-014rev.0,0503223-01-PRO-PFD-014 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Pig receiver (01-R-0402) for goru-B inlet seperator (01-V-0101-A/B)Train-01 Rev.A,0503223-01-PRO-PFD-005_(latest).pdf
+Find Process flow diagram(PFD) of goru-B inlet seperator (01-V-0101-A/B)Train-01 Rev.A,0503223-01-PRO-PFD-005_(latest).pdf
+Find Process flow diagram(PFD) of goru-B raw gas metering skid (01-RGM-0103A/B)Train-01 Rev.A,0503223-01-PRO-PFD-005_(latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-005rev.A,0503223-01-PRO-PFD-005_(latest).pdf
+Find Process flow diagram(PFD) of Pig receiver (01-R-0402) for goru-B inlet seperator (01-V-0101-A/B)Train-01 Rev.0,0503223-01-PRO-PFD-005_(Rev. 0).pdf
+Find Process flow diagram(PFD) of goru-B inlet seperator (01-V-0101-A/B)Train-01 Rev.0,0503223-01-PRO-PFD-005_(Rev. 0).pdf
+Find Process flow diagram(PFD) of goru-B raw gas metering skid (01-RGM-0103A/B)Train-01 Rev.0,0503223-01-PRO-PFD-005_(Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-005rev.0,0503223-01-PRO-PFD-005_(Rev. 0).pdf
+Find Process flow diagram(PFD) of goru-B inlet seperator (02-V-0101-A/B)Train-02 Rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram(PFD) of goru-B raw gas metering skid (02-RGM-0103A/B)Train-02 Rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-010 rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram(PFD) of goru-B inlet seperator (02-V-0101-A/B)Train-02 Rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram(PFD) of goru-B raw gas metering skid (02-RGM-0103A/B)Train-02 Rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-010(Train-02)rev.A,0503223-01-PRO-PFD-010 (latest).pdf
+Find Process flow diagram(PFD) for integration of 3rd ASU with ASU 01 & 02,PFD - Integration of 3rd ASU with ASU 01 & 02.pdf
+Find Process flow diagram(PFD) of goru-B Filter coalescer (V-110)Train-01 Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of guard bed (V-120)Train-01 Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of dust filter (V-130)Train-01 Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of Membrane skid package (01-M-1003A)Train-01 Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of Pre-treatment skid package (01-M-01002A)Train-01 Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of Pre-heater (E-100)Train-01(Type:Indirect water bath heater) Rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-006(Train-01)rev.A,0503223-01-PRO-PFD-006 (latest).pdf
+Find Process flow diagram(PFD) of Membrane skid package (01-M-1003A)Train-01 Rev.0,0503223-01-PRO-PFD-006 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Pre-treatment skid package (01-M-01002A)Train-01 Rev.0,0503223-01-PRO-PFD-006 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Pre-heater (E-100)Train-01(Type:Indirect water bath heater) Rev.0,0503223-01-PRO-PFD-006 (Rev. 0).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-006(Train-01)rev.0,0503223-01-PRO-PFD-006 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Membrane seperation skid (01-M-0101A)Train-01 Rev.0,0503223-01-PRO-PFD-006 (Rev. 0).pdf
+Find Process flow diagram(PFD) of Membrane skid package (01-M-1001B)Train-01 Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram(PFD) of goru-B Filter coalescer (V-110B)Train-01 Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram(PFD) of guard bed (V-120B)Train-01 Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram(PFD) of dust filter (V-130B)Train-01 Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram(PFD) of Membrane skid package (01-M-1003B)Train-01 Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram(PFD) of Pre-heater (E-100)Train-01(Type:Indirect water bath heater) Rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-007(Train-01)rev.A,0503223-01-PRO-PFD-007 (latest).pdf
+Find Process flow diagram of drawing no.0503223-01-PRO-PFD-015rev.0,0503223-01-PRO-PFD-015 (Rev. 0).pdf
