@@ -138,7 +138,7 @@ module.exports = defineConfig({
 
     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
     supportFile: "cypress/support/e2e.js",
-    baseUrl: "https://dev-ai.stixor.com/",
+    baseUrl: "https://ai.stixor.com/",
     browser: "chrome",
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 60000,
