@@ -1,8 +1,9 @@
+
 // const { defineConfig } = require("cypress");
 // const fs = require("fs");
 // const path = require("path");
 // const { startDevServer } = require("@cypress/webpack-dev-server");
-// const webpackConfig = require("./webpack.config.js"); // Make sure this file exists or adjust accordingly
+// const webpackConfig = require("./webpack.config.js");
 
 // module.exports = defineConfig({
 //   e2e: {
@@ -50,8 +51,10 @@
 //       return config;
 //     },
 
+//     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+//     supportFile: "cypress/support/e2e.js",
+//     baseUrl: "https://ai.stixor.com/",
 //     browser: "chrome",
-//     baseUrl: "https://dev-ai.stixor.com/",
 //     defaultCommandTimeout: 10000,
 //     pageLoadTimeout: 60000,
 //     requestTimeout: 15000,
@@ -78,12 +81,15 @@
 //       webpackConfig,
 //     },
 //     specPattern: "src/**/*.cy.{js,jsx,ts,tsx}",
+//     supportFile: "cypress/support/component.js", // create this if needed
 //   },
 
 //   env: {
-//     apiUrl: "https://dev-ai.stixor.com/api",
+//     apiUrl: "https://ai.stixor.com/api",
 //   },
 // });
+
+
 const { defineConfig } = require("cypress");
 const fs = require("fs");
 const path = require("path");
@@ -104,8 +110,10 @@ module.exports = defineConfig({
         fs.mkdirSync(screenshotsFolder, { recursive: true });
       }
 
+      // Initialize log file
       fs.writeFileSync(logFilePath, "Test Execution Log\n\n", { flag: "w" });
 
+      // Clear old screenshots
       if (fs.existsSync(screenshotsFolder)) {
         fs.readdirSync(screenshotsFolder).forEach(file => {
           try {
@@ -116,6 +124,7 @@ module.exports = defineConfig({
         });
       }
 
+      // After screenshot handling
       on("after:screenshot", (details) => {
         const timestamp = new Date().toISOString().replace(/:/g, "-");
         const newPath = path.join(screenshotsFolder, `${timestamp}-${path.basename(details.path)}`);
@@ -124,11 +133,17 @@ module.exports = defineConfig({
         fs.appendFileSync(logFilePath, `Screenshot saved: ${newPath}\n`);
       });
 
+      // Tasks for logging
       on("task", {
         logToFile(message) {
           const logEntry = `${new Date().toISOString()} - ${message}\n`;
           fs.appendFileSync(logFilePath, logEntry);
           console.log(message);
+          return null;
+        },
+        clearLogs() {
+          fs.writeFileSync(logFilePath, "");
+          console.log("🧹 Log file cleared");
           return null;
         },
       });
@@ -166,7 +181,7 @@ module.exports = defineConfig({
       webpackConfig,
     },
     specPattern: "src/**/*.cy.{js,jsx,ts,tsx}",
-    supportFile: "cypress/support/component.js", // create this if needed
+    supportFile: "cypress/support/component.js",
   },
 
   env: {
